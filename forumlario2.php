@@ -24,6 +24,7 @@ echo "<br>";
 echo "Calificación BBDD: ".$_POST['bbdd'];
 echo "<br>";
 
+//Media de las notas
 $media=($_POST['bbdd']+$_POST['llmm']+$_POST['ed']+$_POST['prog'])/4;
 echo "La note media es: ".$media;
 
